@@ -12,6 +12,7 @@ import (
 	"github.com/julienschmidt/httprouter"
 )
 
+// Type definition, customize "event" and data.json if you need to
 type event struct {
 	Name    string `json:"name"`
 	Content string `json:"content"`

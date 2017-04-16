@@ -20,3 +20,10 @@ Use example file "data.json" (or modify this file and types in main.go for custo
 
 ## Customize port
 Use option -p to specify a port different from default `8080` .
+
+## Build Docker image
+`bash build`  
+`docker build -t <repo/image:version> .` 
+
+## Run Docker image
+`docker run -p 8080:8080 <repo/image:version>`

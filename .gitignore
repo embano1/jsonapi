@@ -2,6 +2,7 @@
 *.o
 *.a
 *.so
+jsonapi
 
 # Folders
 _obj
